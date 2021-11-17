@@ -1,0 +1,7 @@
+name: 'DevSecOps'
+description: 'DevSecOps Pipeline using SAST + DAST and SCA tools'
+runs:
+  using: "composite"
+  steps:
+    - run: ${{ github.action_path }}
+      shell: bash
