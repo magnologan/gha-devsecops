@@ -1,0 +1,12 @@
+on: push
+
+name: SFU DevSecOps
+
+jobs:
+  ZAP:
+  runs-on: ubuntu-latest
+    steps:
+    - name: ZAP Scan
+      uses: zaproxy/action-baseline@v0.7.0
+      with:
+        target: 'https://juice-shop.herokuapp.com/'
