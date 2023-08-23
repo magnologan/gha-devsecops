@@ -3,6 +3,7 @@ on: push
 jobs: 
   zap_scan:
     runs-on: ubuntu-latest
+    permissions: write-all
     name: zap
     steps:
       - name: Checkout
