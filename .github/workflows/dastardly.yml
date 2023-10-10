@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   dastardly:
-    runs-on: ubutu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Run Dastardly Action Step
       uses: PortSwigger/dastardly-github-action@main
