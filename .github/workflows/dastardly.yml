@@ -1,0 +1,12 @@
+name: Dastardly Action
+
+on: workflow_dispatch
+
+jobs:
+  dastardly:
+    runs-on: ubutu-latest
+    steps:
+    - name: Run Dastardly Action Step
+      uses: PortSwigger/dastardly-github-action@main
+      with:
+        target-url: 'https://ginandjuice.shop'
