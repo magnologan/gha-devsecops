@@ -1,5 +1,5 @@
 name: DevSecOps Pipeline
-on: pull_request
+on: workflow_dispatch
   branches: master, main
 jobs: 
   sonarcloud:
