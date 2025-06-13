@@ -1,4 +1,4 @@
-name: DevSecOps Pipeline
+name: ZAP Baseline Scan
 on: workflow_dispatch
 jobs: 
   zap_scan:
