@@ -18,8 +18,8 @@ This is provided by SonarCloud, the SaaS version of SonarQube, all you need is a
 This is provided by  ZAP, an open-source web proxy tool. We are only leveraging the Automated Scanning features of ZAP. You only need to point ZAP to scan the application once it is built. 
 
 ## References:
-SonarCloud GHA - https://github.com/marketplace/actions/sonarcloud-scan
+SonarCloud GHA - [https://github.com/marketplace/actions/sonarcloud-scan](https://github.com/marketplace/actions/official-sonarqube-scan)
 
-Snyk GHA - https://github.com/marketplace/actions/snyk
+Snyk GHA - [https://github.com/marketplace/actions/snyk](https://github.com/marketplace/actions/snyk)
 
-ZAP GHA - https://github.com/marketplace/actions/zap-baseline-scan
+ZAP GHA - [https://github.com/marketplace/actions/zap-baseline-scan](https://github.com/marketplace/actions/zap-baseline-scan)
