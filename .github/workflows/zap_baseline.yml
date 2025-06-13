@@ -10,5 +10,5 @@ jobs:
         uses: zaproxy/action-baseline@v0.14.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          target: 'http://juice-shop.herokuapp.com/'
+          target: 'https://gohacking.com.br/'
   
