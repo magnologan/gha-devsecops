@@ -1,6 +1,5 @@
 name: DevSecOps Pipeline
 on: workflow_dispatch
-  branches: master, main
 jobs: 
   sonarcloud:
     needs: recon
